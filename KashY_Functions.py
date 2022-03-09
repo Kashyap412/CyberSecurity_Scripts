@@ -390,9 +390,9 @@ def daily_ioc_dump():
 	
 	print("Daily IOC Dump Starts")
 	
-	dump_otx(api_key='53c74f6312ebc9089b48998e7cb519813978f21144323e9cc6c5259dad9cb64b')
+	dump_otx(api_key='53c74f6312ebc9089b48998e7cb519813978f21144323e9cc6c5259dad9cb64b1712')
 	
-	dump_malshare(api_key = '4c1f9ca3bb0668152475b4495ac0e766abce6711f5b75ba3b24cb2a98493f7bc',category='category',ioc_score=17)
+	dump_malshare(api_key = '4c1f9ca3bb0668152475b4495ac0e766abcykhe6711f5b75ba3b24cb2a98493f7bc',category='category',ioc_score=17)
 	download_hash(source='tweet',url='http://www.tweettioc.com/feed/daily/md5',category='category',ioc_score=17)
 	
 	download_ipv4(source='rescure.fruxlabs',url='https://rescure.fruxlabs.com/rescure_blacklist.txt',category='category',ioc_score=17)
